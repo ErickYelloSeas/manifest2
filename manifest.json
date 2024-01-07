@@ -20,7 +20,7 @@
     } 
   ],
   "id": "/?YelloHubs-pwa",
-  "start_url": "https://www.yellohubs.com/index.php",
+  "start_url": "/index.php",
   "background_color": "#ffffff",
   "display": "standalone",
   "scope": "https://www.yellohubs.com/",
@@ -30,14 +30,14 @@
       "name": "YelloHubs posts feed",
       "short_name": "Posts",
       "description": "View and enjoy interacting with a wide range of posts intergrated just for you.",
-      "url": "https://www.yellohubs.com/index.php",
+      "url": "/index.php",
       "icons": [{ "src": "https://www.yellohubs.com/512.jpg", "sizes": "512x512" }]
     },
     {
       "name": "Your YelloHubs profile",
       "short_name": "Profile",
       "description": "View, edit and share your account profile",
-      "url": "https://www.yellohubs.com/user_profile.php",
+      "url": "/user_profile.php",
       "icons": [{ "src": "https://www.yellohubs.com/192.jpg", "sizes": "192x192" }]
     }
   ],
