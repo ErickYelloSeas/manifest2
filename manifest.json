@@ -1,45 +1,68 @@
 {
+  "display_override": ["window-controls-overlay"], 
+  "protocol_handlers": [{"protocol":"yellohubs","url":"/posts-feed?to=%s"}], 
+  "screenshots": [
+    {
+      "src": "https://yellohubs.com/files/system/screen1.png",
+      "sizes": "2880x1800",
+      "type": "image/png",
+      "description": "PWABuilder Home Screen"
+    },
+    {
+      "src": "https://yellohubs.com/files/system/screen2.png",
+      "sizes": "2880x1800",
+      "type": "image/png",
+      "description": "PWABuilder Report Card"
+    },
+    {
+      "src": "https://yellohubs.com/files/system/screen3.png",
+      "sizes": "2880x1800",
+      "type": "image/png",
+      "description": "Manifest information on the Report Card"
+    }
+  ], 
+  "orientation": "any", 
   "short_name": "YelloHubs",
   "name": "YelloHubs",
   "icons": [
     {
-      "src":"https://www.yellohubs.com/192.jpg",
+      "src":"https://yellohubs.com/192.jpg",
       "sizes": "192x192",
       "type": "image/jpg"
     },
     {
-      "src":"https://www.yellohubs.com/512.jpg",
+      "src":"https://yellohubs.com/512.jpg",
       "sizes": "512x512",
       "type": "image/jpg",
       "purpose": "any maskable"
     },
         {
-      "src":"https://www.yellohubs.com/512-png.png",
+      "src":"https://yellohubs.com/512-png.png",
       "sizes": "512x512",
       "type": "image/png"
     } 
   ],
   "id": "/?YelloHubs-pwa",
-  "start_url": "/index.php",
+  "start_url": ".",
   "background_color": "#ffffff",
   "display": "standalone",
-  "scope": "https://www.yellohubs.com/",
-  "theme_color": "#898989",
+  "scope": ".",
+  "theme_color": "#191970",
   "shortcuts": [
     {
       "name": "YelloHubs posts feed",
       "short_name": "Posts",
-      "description": "View and enjoy interacting with a wide range of posts intergrated just for you.",
-      "url": "/index.php",
-      "icons": [{ "src": "https://www.yellohubs.com/512.jpg", "sizes": "512x512" }]
+      "description": "View and enjoy interacting with a wide range of posts integrated just for you.",
+      "url": "https://yellohubs.com/",
+      "icons": [{ "src": "512.jpg", "sizes": "512x512" }]
     },
     {
       "name": "Your YelloHubs profile",
       "short_name": "Profile",
       "description": "View, edit and share your account profile",
-      "url": "/user_profile.php",
-      "icons": [{ "src": "https://www.yellohubs.com/192.jpg", "sizes": "192x192" }]
+      "url": "https://yellohubs.com/hub-profile",
+      "icons": [{ "src": "192.jpg", "sizes": "192x192" }]
     }
   ],
-  "description": "A social platform created just for you"
+  "description": "A social platform created just for you, and your fellows who you share same interests with."
 }
