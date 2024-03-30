@@ -25,10 +25,18 @@
   "short_name": "YelloHubs",
   "name": "YelloHubs",
   "icons": [
+
     {
       "src":"https://yellohubs.com/192.jpg",
       "sizes": "192x192",
       "type": "image/jpg"
+    }, 
+  
+    {
+      "src":"https://yellohubs.com/192.jpg",
+      "sizes": "192x192",
+      "type": "image/jpg"
+      "purpose": "any"
     },
     {
       "src":"https://yellohubs.com/512.jpg",
